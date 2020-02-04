@@ -1,0 +1,13 @@
+git clone <url> - get the repository in the github cloud on your machine
+
+git status - check the difference between your local git dir and the github repostiory
+
+git add <filename>- add the particular file specified in your local machine to the git repository 
+git add -A - add all the differences in your local machine to the git repository
+git add . - add all the difference in your local machine to the git repository
+
+git commit - commit the difference in your local machine to the git hub repository
+
+git push - sync the git repository and your local machine git dir
+
+git pull - sync the data on the github repository on your local machine

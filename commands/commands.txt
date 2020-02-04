@@ -1,0 +1,32 @@
+rm - remove a file
+rmdir/rm -r - remove a dir
+
+mv <path_of_file> <new_path_of_file> - move a file from one location to another. if the new location is same, the file will be renamed.
+mv -r <path_of_file> <new_path_of_file> - move a dir from one location to another
+
+cp <path_of_file> <new_path_of_file> - copy a file from one location to another
+cp -r <path_of_file> <new_path_of_file> - copy a dir from one location to another
+
+ls - get the files in the dir
+ls -l - get all the details about the files in the dir
+ls -a - get the files with the hidden files in the dir
+ls -la - get the all the details about the files with the hidden files in the dir
+
+pwd - get the location of the current working directory
+cd - swtich through different paths
+cd .. - switch to the parent directory
+cd ../.. - switch to the grandparent directory
+
+touch - create a new file
+cat > <filename> - open a file in the terminal and replace data in it
+cat >> <filename> - open a file in the terminal and add data in it
+xdg-open - open the file in a text editor
+
+shutdown -h now - switch off the machine
+reboot - reboots the machine
+
+!<character> - runs the last command which had the same first character as the character input
+
+chmod  - change permissions of a file/dir 
+
+
