@@ -27,7 +27,4 @@ reboot - reboots the machine
 
 !<character> - runs the last command which had the same first character as the character input
 
-chmod  - change permissions of a file/dir 
-
-
-hey hey
+chmod  - change permissions of a file/dir
