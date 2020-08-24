@@ -21,6 +21,7 @@ git branch - displays all the branches available in the repository.
 git branch - creates a new branch but does not switches to it.
 git branch -d <branch name> - deletes a particular branch.
 
+git diff - displays the difference in the repository state and the current workspace state.
 git diff <branch name> - get the difference between the current branch and the branch name.
 
 git fetch - fetches the changes from the remote repository (eg. the github repository) and updates the local repository (eg. the .git file in the local machine).
