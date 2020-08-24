@@ -10,9 +10,18 @@ git commit - commit the difference in your local machine to the git hub reposito
 git commit -a - stage and commit all the tracked files without doing "git add" first.
 git commit -m "message" - write the commit message while committing the changes without opening up the editor.
 
+git log - shows all the commits in the repository in a reverse chronological order.
+
 git push - sync the git repository and your local machine git dir
 
 git pull - sync the data on the github repository on your local machine.
+
+git reset - undos all the staged changes in the repository.
+git reset <filename> - undos the staged changes of the selected file.
+git reset HEAD - (HEAD is a pointer to the latest commit) restores the current repository state and removes all the changes in workspace.
+git reset HEAD~n - goes back n (n is an integer starting from 1) commits and restores the repository state of that commit.
+git reset <commit hash> - restores to a particular commit (denoted by its commit hash) in history.
+git reset --hard <commit hash> - restores to a particular commit (denoted by its commit hash) in history and clean the workspace.
 
 git checkout <branch name> - switch to another branch in the git folder.
 git checkout -b <branch name> - creates a new branch and switch to it.
