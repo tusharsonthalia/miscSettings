@@ -17,6 +17,9 @@ git pull - sync the data on the github repository on your local machine.
 git checkout <branch name> - switch to another branch in the git folder.
 git checkout -b <branch name> - create a new branch and switch to it.
 
+git branch - displays all the branches available in the repository.
+git branch -d <branch name> - deletes a particular branch.
+
 git diff <branch name> - get the difference between the current branch and the branch name.
 
 git fetch - fetches the changes from the remote repository (eg. the github repository) and updates the local repository (eg. the .git file in the local machine).
