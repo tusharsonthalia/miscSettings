@@ -7,7 +7,14 @@ git add -A - add all the differences in your local machine to the git repository
 git add . - add all the difference in your local machine to the git repository
 
 git commit - commit the difference in your local machine to the git hub repository
+git commit -a - stage and commit all the tracked files without doing "git add" first.
+git commit -m "message" - write the commit message while committing the changes without opening up the editor.
 
 git push - sync the git repository and your local machine git dir
 
 git pull - sync the data on the github repository on your local machine
+
+git fetch - fetches the changes from the remote repository (eg. the github repository) and updates the local repository (eg. the .git file in the local machine).
+git merge - merges the changes the changes in the local repository into the current workspace.
+
+NOTE: git fetch and git merge is basically git pull in two different steps.
