@@ -1,0 +1,117 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+; c",
+        "command": "-python.datascience.changeCellToCode",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+; u",
+        "command": "-python.datascience.moveCellsUp",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+; d",
+        "command": "-python.datascience.moveCellsDown",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "-breadcrumbs.focus",
+        "when": "breadcrumbsPossible"
+    },
+    {
+        "key": "ctrl+; m",
+        "command": "-python.datascience.changeCellToMarkdown",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+; x",
+        "command": "-python.datascience.deleteCells",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+; a",
+        "command": "-python.datascience.insertCellAbove",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+; b",
+        "command": "-python.datascience.insertCellBelow",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+; s",
+        "command": "-python.datascience.insertCellBelowPosition",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "-extension.insertSemicolonWithNewLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-extension.insertSemicolon",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "macros.addSemicolon"
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "macros.addSemicolonWithNewLine"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "deleteAllLeft"
+    },
+    {
+        "key": "ctrl+shift+delete",
+        "command": "deleteAllRight"
+    },
+    {
+        "key": "shift+alt+[",
+        "command": "macros.addCurlyBracketWithNewLine"
+    },
+    {
+        "key": "ctrl+k ctrl+u",
+        "command": "-editor.action.removeCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "macros.moveCursorDown"
+    },
+    {
+        "key": "ctrl+shift+'",
+        "command": "macros.moveCursorUp"
+    },
+    {
+        "key": "shift+r",
+        "command": "python.datascience.runallcells",
+        "when": "notebookEditorFocused && !inputFocus && notebookViewType == 'jupyter-notebook'"
+
+        // "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "shift+a",
+        "command": "python.datascience.runallcellsabove.palette",
+        "when": "notebookEditorFocused && !inputFocus && notebookViewType == 'jupyter-notebook'"
+
+    },
+    {
+        "key": "shift+b",
+        "command": "python.datascience.runcurrentcellandallbelow.palette",
+        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !notebookEditorFocused"
+    }
+]

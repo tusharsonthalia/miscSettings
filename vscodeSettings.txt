@@ -1,0 +1,65 @@
+{
+    "editor.wordWrapColumn": 79,
+    "editor.comments.ignoreEmptyLines": false,
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "window.zoomLevel": 0,
+	"editor.mouseWheelScrollSensitivity": 5,
+    "liveServer.settings.donotVerifyTags": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.cursorBlinking": "phase",
+    "emmet.triggerExpansionOnTab": true,
+	"editor.smoothScrolling": true,
+
+    "macros": {
+        "addSemicolon": [
+            "cursorEnd",
+            {
+                "command": "type",
+                "args": {
+                    "text": ";"
+                }
+            }
+        ],
+        "addSemicolonWithNewLine": [
+            "cursorEnd",
+            {
+                "command": "type",
+                "args": {
+                    "text": ";"
+                }
+            },
+            "editor.action.insertLineAfter"
+        ],
+        "addCurlyBracketWithNewLine": [
+            "cursorEnd",
+            {
+                "command": "type",
+                "args": {
+                    "text": " {\n",
+                }
+            },
+            "editor.action.insertNewLine"
+        ],
+        "moveCursorDown": [
+           "cursorDown"
+        ],
+        "moveCursorUp": [
+            "cursorUp"
+        ],
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.semanticHighlighting.enabled": true,
+    "python.dataScience.alwaysTrustNotebooks": true
+}
