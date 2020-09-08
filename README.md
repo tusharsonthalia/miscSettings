@@ -9,3 +9,7 @@ there will be multiple .txt files containing the commands for linux in general a
  # text editor settings
 
  there are some preferred settings for VS Code and Sublime Text.
+
+ # windows terminal settings
+
+ there are some preferred settings for Windows Terminal and requires the wtbackground.jpg image.
