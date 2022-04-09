@@ -12,7 +12,6 @@
     "initialRows": 25,
     "launchMode": "default",
     "alwaysOnTop": false,
-    
     // setting the tab ui
     "tabWidthMode": "compact",
     // "tiTLE"
@@ -29,10 +28,9 @@
     "profiles": {
         "defaults": {
             // Put settings here that you want to apply to all profiles.
-            "fontSize": 9, 
-
+            "fontSize": 9,
             // background image settings
-            "backgroundImage": "wtBackground.jpg",
+            "backgroundImage": "%localappdata%\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\wtBackground.jpg",
             "backgroundImageOpacity": 0.6,
             "backgroundImageStretchMode": "fill"
         },
