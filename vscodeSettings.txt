@@ -10,7 +10,7 @@
 	"editor.mouseWheelScrollSensitivity": 5,
     "editor.bracketPairColorization.enabled": true,
     "liveServer.settings.donotVerifyTags": true,
-    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    // "python.dataScience.sendSelectionToInteractiveWindow": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
     "editor.cursorBlinking": "phase",
@@ -61,6 +61,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "java.semanticHighlighting.enabled": true,
-    "python.dataScience.alwaysTrustNotebooks": true,
-    "material-icon-theme.folders.theme": "specific"
+    // "python.dataScience.alwaysTrustNotebooks": true,
+    "material-icon-theme.folders.theme": "specific",
+    "security.workspace.trust.enabled": false
 }
