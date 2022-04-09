@@ -7,12 +7,12 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "window.zoomLevel": 0,
 	"editor.mouseWheelScrollSensitivity": 5,
+    "editor.bracketPairColorization.enabled": true,
     "liveServer.settings.donotVerifyTags": true,
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
     "editor.cursorBlinking": "phase",
     "emmet.triggerExpansionOnTab": true,
 	"editor.smoothScrolling": true,
@@ -61,5 +61,6 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "java.semanticHighlighting.enabled": true,
-    "python.dataScience.alwaysTrustNotebooks": true
+    "python.dataScience.alwaysTrustNotebooks": true,
+    "material-icon-theme.folders.theme": "specific"
 }
